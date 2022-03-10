@@ -79,7 +79,7 @@ pop();
 function vForce()
 {
  //write a code to move ball up when the button is clicked.
- Matter.Body.applyForce(ball,{x:0,y:0}, {x:0, y:0.05});
+ Matter.Body.applyForce(ball,{x:0,y:0}, {x:0, y:-0.05});
 }
 
 
